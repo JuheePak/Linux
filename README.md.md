@@ -1,4 +1,4 @@
-### wsl에서 Ubuntu 설치하기
+### WSL에서 Ubuntu 설치하기
 
 ---
 
