@@ -8,4 +8,6 @@
 
 ​	(3) [Uploading the files to an Amazon S3 bucket](https://github.com/JuheePak/linuxStudy/blob/master/WSL/Uploading%20the%20files%20to%20an%20Amazon%20S3%20bucket.md)
 
-​	(4) Basic Linux commands 
+​	(4) [Basic Linux commands](https://github.com/JuheePak/linuxStudy/blob/master/Linux/Basic%20Linux%20commands.md)
+
+ 
