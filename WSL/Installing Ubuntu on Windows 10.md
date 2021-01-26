@@ -60,6 +60,12 @@ wsl --list --verbose
 wsl --set-default-version 2
 ```
 
+- 버전을 다시 확인한다. (아래와 같이 명령어를 입력해도 된다.)
+
+```
+wsl -l -v
+```
+
 
 
 수행 후 다시 버전을 확인했을 때 Version 2라고 나오지 않으면, 재부팅후 원인을 찾아야 한다.
