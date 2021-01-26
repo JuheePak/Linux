@@ -10,4 +10,4 @@
 
 ​	(4) [Basic Linux commands](https://github.com/JuheePak/linuxStudy/blob/master/Linux/Basic%20Linux%20commands.md)
 
- 
+​    (5) [Linux file Permissions](https://github.com/JuheePak/linuxStudy/blob/master/Linux/Linux%20file%20Permissions.md)
