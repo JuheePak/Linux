@@ -6,7 +6,7 @@
 
 - 관리자모드로 cmd 창을 열어 WSL 접속
 - 아래 명령어를 입력
-- 만약 에러가 난다면 mysql을 sudo 명령어로 입력하여 설치하고 다시 아래 명령어 수행
+- 만약 에러가 난다면 MySQL을 sudo 명령어로 입력하여 설치하고 다시 아래 명령어 수행
 
 ```mariadb
 mysql -h 호스트입력 -P 포트번호입력 -u 유저이름입력 -p db이름입력
@@ -51,7 +51,7 @@ select * from mytable where id = '1' limit 10; # 10개만
 #### `2. 데이터 테이블의 상태를 확인하기`
 
 - auto commit 기능을 해제하기 위해 어떤 Engine을 사용하는지 확인한다
-- mysql 최신 버전의 경우 InnoDB를 쓰고 있다 하지만, 그래도 확인해본다
+- MySQL 최신 버전의 경우 InnoDB를 쓰고 있다 하지만, 그래도 확인해본다
 
 ``` mariadb
 show table status; # engine 칼럼에서 확인할 수 있다

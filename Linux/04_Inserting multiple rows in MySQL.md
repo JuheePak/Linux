@@ -47,7 +47,9 @@ set global max_allowed_packet=1073741824; # 1GB로 설정
 
 - 만약 삽입 대상 테이블에 자동 index 설정하는 auto increment 칼럼이 존재한다면 해제하는 것을 권장한다
 
-#### `4.LOAD DATA INFILE (다들 얘만 대문자로 쓰는데 소리지르는 느낌ㅎ)`
+#### `4.LOAD DATA INFILE`
+
+- 다들 이 명령어만 대문자로 쓴다....(왜...?)
 
 - 데이터 파일을 로딩하여 테이블을 생성하면서 insert 하는 방법
 - 구분자를 잘 사용하여야 한다
