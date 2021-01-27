@@ -82,6 +82,6 @@ start transaction; # 혹은 start begin;
 
 ``` mariadb
 rollback;
-commit;
+commit; #꼭 주의하여 사용한다!!!!!!!!!!
 ```
 
