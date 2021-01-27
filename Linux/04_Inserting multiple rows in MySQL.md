@@ -45,4 +45,18 @@ show variables like ‘max_allowed_packet’; # max값 확인
 set global max_allowed_packet=1073741824; # 1GB로 설정
 ```
 
-- 만약 삽입 대상 테이블에 자동 index 설정하는 auto increment 칼럼이 존재한다면 해제하는 것이 속도 향상에 좋다
+- 만약 삽입 대상 테이블에 자동 index 설정하는 auto increment 칼럼이 존재한다면 해제하는 것을 권장한다
+
+#### `4.LOAD DATA INFILE (다들 얘만 대문자로 쓰는데 소리지르는 느낌ㅎ)`
+
+- 데이터 파일을 로딩하여 테이블을 생성하면서 insert 하는 방법
+- 구분자를 잘 사용하여야 한다
+- INTO TABLE 아래의 출력 형태를 유의하여 작성해야 한다
+
+``` mariadb
+LOAD DATA INFILE '절대경로'
+INTO TABLE '테이블명'
+FIELDS TERMINATED BY '\t' ENCLOSED BY "" ESCAPED BY '\\'
+LINES STARTING BY '' TERMINATED BY '\n'
+```
+
