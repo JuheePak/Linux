@@ -26,10 +26,21 @@ mysql -u 유저이름 -p -h 서버명 DB명 --local-infile=1 # 옵션 ON 으로 
 #### `2. 명령어`
 
 - 나는 내 로컬 C드라이브에 있는 csv 파일을 import 할 것이므로 아래 명령어를 사용한다.
+- 그 전에 테이블을 생성한다
+
+```mariadb
+CREATE TABLE myt(
+id int,
+col1 int,
+col2 int
+)
+```
+
+- myt에 insert 한다
 
 ```mariadb
 LOAD DATA LOCAL INFILE '파일경로' # 경로는 슬래쉬로
-REPLACE INTO TABLE `localtest`.`computervalue`(테이블이름)
+REPLACE INTO TABLE `localtest`.`myt`
 COLUMNS TERMINATED BY ',' ENCLOSED BY '"'
 LINES TERMINATED BY '\n' IGNORE 1 LINES
 (@id, @col1, @col2)
