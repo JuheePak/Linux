@@ -40,9 +40,9 @@ col2 int
 
 ```mariadb
 LOAD DATA LOCAL INFILE '파일경로' # 경로는 슬래쉬로
-REPLACE INTO TABLE `localtest`.`myt`
-COLUMNS TERMINATED BY ',' ENCLOSED BY '"'
-LINES TERMINATED BY '\n' IGNORE 1 LINES
+INTO TABLE `myt`
+COLUMNS TERMINATED BY ',' ENCLOSED BY '"' # 각 칼럼의 구분자는 콤마(,)
+LINES TERMINATED BY '\n' IGNORE 1 LINES # 첫번째 라인은 무시(보통 칼럼명이니까)
 (@id, @col1, @col2)
 SET `id` = @id, `col1` = @col1, `col2` = @col2;
 ```
