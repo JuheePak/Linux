@@ -18,4 +18,6 @@
 
 - [04_Inserting multiple rows in MySQL](https://github.com/JuheePak/linuxStudy/blob/master/Linux/04_Inserting%20multiple%20rows%20in%20MySQL.md)
 
+- LOAD DATA LOCAL INFILE command in MySQL
+
   
