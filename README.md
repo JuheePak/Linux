@@ -11,15 +11,8 @@
 ##### `Linux`
 
 - [01_Basic Linux commands](https://github.com/JuheePak/linuxStudy/blob/master/Linux/01_Basic%20Linux%20commands.md)
-
 - [02_Linux file Permissions](https://github.com/JuheePak/linuxStudy/blob/master/Linux/02_Linux%20file%20Permissions.md)
-
 - [03_Connecting to MariaDB](https://github.com/JuheePak/linuxStudy/blob/master/Linux/03_Connecting%20to%20MariaDB.md)
-
 - [04_Inserting multiple rows in MySQL](https://github.com/JuheePak/linuxStudy/blob/master/Linux/04_Inserting%20multiple%20rows%20in%20MySQL.md)
-
 - [LOAD DATA LOCAL INFILE command in MySQL](https://github.com/JuheePak/linuxStudy/blob/master/Linux/05_LOAD%20DATA%20LOCAL%20INFILE%20command%20in%20MySQL.md)
-
-  
-  
-  
+- Importing CSV file into MariaDB using by HeidiSQL
