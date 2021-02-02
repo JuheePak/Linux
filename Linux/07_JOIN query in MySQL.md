@@ -1,4 +1,4 @@
-### 🤝 JOIN in MySQL
+### 🤝 JOIN query in MySQL
 
 ---
 
