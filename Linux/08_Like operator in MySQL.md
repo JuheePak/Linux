@@ -1,4 +1,4 @@
-### 🔠 특정 문자 포함 또는 제외한 DB 검색 in MySQL
+### 🔠 Like operator in MySQL
 
 ---
 
