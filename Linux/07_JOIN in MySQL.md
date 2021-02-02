@@ -10,7 +10,7 @@
 
 - A table과 B table의 교집합으로 생각하면 된다
 - WHERE절에서 조건을 주어도 되고, ON 으로 조건을 주어도 된다
-- LEFT JOIN, RIGHT JOIN보다 속도가 빠르다고 한다
+- LEFT JOIN, RIGHT JOIN보다 속도가 빠르다
 
 ```mariadb
 SELECT a.tableA b.tableB 
