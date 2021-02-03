@@ -46,3 +46,22 @@ http://.....
 - docker compose up이 되지 않아 하루를 꼬박 날렸다
 - 두서없이 정리되어 있지만 컨테이너와 compose 부분 더 공부하고 정리해야겠다
 - 어렵다 docker.... 
+- Docker를 수행시키는 순서는 다음과 같다
+
+``` bash
+# WSL2 접속
+# 1. cmd --> wsl
+# 가상환경으로
+source {가상환경 경로}
+# 다시 루트 경로로
+cd {root 경로}
+# docker 실행 및 서버 확인
+sudo docker-compose up
+sudo docker ps
+# 혹시나 수행되고 있는 다른 container 서버가 있다면 kill한다
+sudo docker kill {containerID}
+# 새 터미널에서 위의 root 경로로 이동하는 과정까지 반복하고, docker를 attach 한다
+sudo docker attach {containerID}
+# 터미널에서 로컬서버로 접속이 된 것을 확인하고, 해당 주소로 가서 잘 수행되는지 확인한다.
+```
+
