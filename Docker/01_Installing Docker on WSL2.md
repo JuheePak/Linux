@@ -8,7 +8,7 @@
 
   ✅ [Settings] -> [Use the WSL 2 based engine]
 
-  ✅ [Resources] --> [Enable intergration with my default WSl distro]
+  ✅ [Resources] --> [Enable intergration with my default WSL distro]
 
   위의 두 섹션에 들어가서 체크하고 저장해준다
 
