@@ -50,7 +50,7 @@ http://.....
 
 ``` bash
 # WSL2 접속
-# 1. cmd --> wsl
+# cmd --> wsl
 # 가상환경으로
 source {가상환경 경로}
 # 다시 루트 경로로
