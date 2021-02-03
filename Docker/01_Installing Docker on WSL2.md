@@ -1,1 +1,4 @@
-### 01_Installing Docker on WSL2
+### 🐋 01_Installing Docker on WSL2
+
+---
+
