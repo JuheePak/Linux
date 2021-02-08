@@ -19,7 +19,7 @@
 - [07_JOIN query in MySQL](https://github.com/JuheePak/linuxStudy/blob/master/Linux/07_JOIN%20query%20in%20MySQL.md)
 - [08_Like operator in MySQL](https://github.com/JuheePak/linuxStudy/blob/master/Linux/08_Like%20operator%20in%20MySQL.md)
 - [09_Exporting tables using HeidiSQL](https://github.com/JuheePak/linuxStudy/blob/master/Linux/09_Exporting%20tables%20using%20HeidiSQL.md)
-- 
+- 10_Exporting_tables_using HeidiSQL (2)
 
 ##### `Docker`
 
