@@ -8,6 +8,8 @@
 - [02_Installing Python3 virtualenv on Ubuntu](https://github.com/JuheePak/linuxStudy/blob/master/WSL/02_Installing%20Python3%20virtualenv%20on%20Ubuntu.md)
 - [03_Uploading files to an Amazon S3 bucket](https://github.com/JuheePak/linuxStudy/blob/master/WSL/03_Uploading%20files%20to%20an%20Amazon%20S3%20bucket.md)
 
+
+
 ##### `Linux`
 
 - [01_Basic Linux commands](https://github.com/JuheePak/linuxStudy/blob/master/Linux/01_Basic%20Linux%20commands.md)
@@ -20,6 +22,8 @@
 - [08_Like operator in MySQL](https://github.com/JuheePak/linuxStudy/blob/master/Linux/08_Like%20operator%20in%20MySQL.md)
 - [09_Exporting tables using HeidiSQL](https://github.com/JuheePak/linuxStudy/blob/master/Linux/09_Exporting%20tables%20using%20HeidiSQL.md)
 - [10_Exporting_tables_using HeidiSQL (2)](https://github.com/JuheePak/linuxStudy/blob/master/Linux/10_Exporting%20tables%20using%20HeidiSQL%20(2).md)
+
+
 
 ##### `Docker`
 
