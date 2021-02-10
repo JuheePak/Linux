@@ -17,7 +17,9 @@
   - `형태적 거리`: string distance.
   - e.g.) Jaro-winkler, Levenshtein (string 이용하여 정의), Hamming, Cosine, TF-IDF distance(string 을 벡터로 표현하여 거리를 정의)
 
-- 그 중 Levenshtein distance는 edit 방법을 3가지로 나눈다
+  
+
+- 그 중 Levenshtein distance는 edit 방법을 `3가지`로 나눈다
 
   - Delete: 집**에**가고싶다 --> 집가고싶다 '**에**' 삭제
   - Insert: 집가자 --> 집**에**가자 **'에'** 추가
