@@ -24,12 +24,13 @@
   - 3: 원래 이름에서 서로 인접하여 연속으로 나타나는 글자는 맨 앞에 하나만 남기고 나머지 제거
   - 4: 최종적인 결과를 **'글자숫자숫자숫자'**의 형태로 만들기 위해 숫자가 3개 이상일 경우 나머지는 생략, 3개 미만일 경우 뒤에 0을 붙여 형태를 통일시킨다.
 
-  
-
 - 코드는 아래와 같다
 
   ``` python
-  """ replaceArr 여러개의 replace를 한꺼번에 처리하기 위한 함수 @param data 문자열 @param arr 바뀔 문자의 배열 @param to 바꿀 문자 @return data 치환 된 결과 """ 
+  """
+  replaceArr 여러개의 replace를 한꺼번에 처리하기 위한 함수 @param data 문자열 
+  @param arr 바뀔 문자의 배열 @param to 바꿀 문자 @return data 치환 된 결과 
+  """ 
   
   def replaceArr(data, arr, to): 
       for key in arr: 
@@ -66,7 +67,5 @@
           # 글자 수가 맞지 않는 경우 0 붙여주기 
       if len(code) < 4: 
           code = code + ("0" * (4 - len(code))) # 결과 반환 
-      return code
-```
-  
-  
+      return code 
+  ```
