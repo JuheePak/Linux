@@ -35,5 +35,5 @@
 ##### `Deep Learning`
 
 - [01_Soundex algorithim](https://github.com/JuheePak/linuxStudy/blob/master/DeepLearning/01_Soundex%20algorithm.md)
-- 
+- [02_Levenshtein distance](https://github.com/JuheePak/linuxStudy/blob/master/DeepLearning/02_Levenshtein%20distance.md)
 
