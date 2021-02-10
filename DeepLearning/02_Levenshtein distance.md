@@ -4,7 +4,7 @@
 
 - 단어 혹은 문장과 같은 string 문자열 간의 형태적 유사성을 정의하는 방법 중 하나
 
-- **한 string s1에서 다른 string s2로 교정하는데 드는 최소 횟수를 두 strings 간의 거리로 정의함**
+- <u>**한 string s1에서 다른 string s2로 교정하는데 드는 최소 횟수를 두 strings 간의 거리로 정의함**</u>
 
 - Edit distance라고도 불리는 Levenshtein distance는 한국어와 같이 초, 중, 종성으로 이루어진 언어를 고려한 metric은 아니다
 
