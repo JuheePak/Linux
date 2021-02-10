@@ -49,7 +49,8 @@
       
   # 규칙 2 
       keyword = replaceArr(keyword, ["b", "f", "p", "v"], "1") 
-      keyword = replaceArr(keyword, ["c", "g", "j", "k", "q", "s", "x", "z"], "2") 		keyword = replaceArr(keyword, ["d", "t"], "3") keyword = keyword.replace("l", "4")
+      keyword = replaceArr(keyword, ["c", "g", "j", "k", "q", "s", "x", "z"], "2")
+      keyword = replaceArr(keyword, ["d", "t"], "3") keyword = keyword.replace("l", "4")
       keyword = replaceArr(keyword, ["m", "n"], "5") keyword = keyword.replace("r", "6") 
       
   # 규칙 3 
@@ -66,6 +67,6 @@
       if len(code) < 4: 
           code = code + ("0" * (4 - len(code))) # 결과 반환 
       return code
-  ```
-
+```
+  
   
