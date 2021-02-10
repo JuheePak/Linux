@@ -1,4 +1,4 @@
-### 🗨 02_Levenshtein distance
+### 🗨 02_Levenshtein distance - 작성중
 
 ---
 
