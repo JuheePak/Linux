@@ -22,6 +22,8 @@
 
 - 기본적인 Levenshtein distance code는 구글이나 wikipedia에서 구현되어 있으니 쉽게 찾을 수 있다
 
+
+
 ``` python
 def levenshtein(s1, s2, debug=False):
     if len(s1) < len(s2):
@@ -47,8 +49,48 @@ def levenshtein(s1, s2, debug=False):
     return previous_row[-1]
 ```
 
-- 구체적인 처리 과정은 생략하지만, 아래 사이트를 통해 참고할 수 있다:)  [여기](https://lovit.github.io/nlp/2018/08/28/levenshtein_hangle/)
 
+
+- 구체적인 처리 과정은 생략하지만, 아래 사이트를 통해 참고할 수 있다:)  [여기](https://lovit.github.io/nlp/2018/08/28/levenshtein_hangle/)
 - 위의 코드는 deletion, substitution insertion 모두 비용을 같게 적용하였으나, 그 비용을 각각 다르게 적용할 수 있다. 아래 코드는 cost라는 변수를 추가하여 각 케이스의 비용을 다르게 처리하였다
 
-  
+
+
+``` python
+def levenshtein(s1, s2, cost=None, debug=False):
+    if len(s1) < len(s2):
+        return levenshtein(s2, s1, debug=debug)
+
+    if len(s2) == 0:
+        return len(s1)
+
+    if cost is None:
+        cost = {}
+
+    # changed
+    def substitution_cost(c1, c2):
+        if c1 == c2:
+            return 0
+        return cost.get((c1, c2), 1)
+
+    previous_row = range(len(s2) + 1)
+    for i, c1 in enumerate(s1):
+        current_row = [i + 1]
+        for j, c2 in enumerate(s2):
+            insertions = previous_row[j + 1] + 1
+            deletions = current_row[j] + 1
+            # Changed
+            substitutions = previous_row[j] + substitution_cost(c1, c2)
+            current_row.append(min(insertions, deletions, substitutions))
+
+        if debug:
+            print(current_row[1:])
+
+        previous_row = current_row
+
+    return previous_row[-1]
+```
+
+
+
+- 한글은 영어와 다르게 초/중/종성으로 나누어져 있으니,  그 부분을 고려하여 글자를 쪼개서 적용할 수 있다. 혹은 한글을 영어 이니셜로 변환하여 Levenshtein distance를 구하는 것도 한 가지 방법일 것이다.....!
