@@ -1,6 +1,6 @@
 ## 🐱‍💻 업무에 필요한 Linux 공부
 
-#### `⚡ WSL를 설치하여 Ubuntu 환경에서 개발합니다`
+#### `⚡ WSL를 설치하여 Ubuntu 환경에서 개발하고 있습니다 :) `
 
 ##### `WSL` 
 
@@ -28,7 +28,6 @@
 ##### `Docker`
 
 - [01_Installing Docker on WSL2](https://github.com/JuheePak/linuxStudy/blob/master/Docker/01_Installing%20Docker%20on%20WSL2.md)
-- 
 
 
 
