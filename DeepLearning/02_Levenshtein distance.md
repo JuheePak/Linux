@@ -17,8 +17,6 @@
   - `형태적 거리`: string distance.
   - e.g.) Jaro-winkler, Levenshtein (string 이용하여 정의), Hamming, Cosine, TF-IDF distance(string 을 벡터로 표현하여 거리를 정의)
 
-  
-
 - 그 중 Levenshtein distance는 edit 방법을 `3가지`로 나눈다
 
   - Delete: 집**에**가고싶다 --> 집가고싶다 '**에**' 삭제
@@ -26,6 +24,4 @@
   - Substitution: 집에가자 --> 집에가**장** **자를 장으로 치환**
 
   
-
-참고: https://lovit.github.io/nlp/2018/08/28/levenshtein_hangle/
 
