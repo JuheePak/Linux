@@ -57,7 +57,7 @@ def levenshtein(s1, s2, debug=False):
 
 
 ``` python
-def levenshtein(s1, s2, cost=None, debug=False):
+def levenshtein(s1, s2, cost=None, debug=False): # cose 변수 추가
     if len(s1) < len(s2):
         return levenshtein(s2, s1, debug=debug)
 
