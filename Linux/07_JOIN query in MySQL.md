@@ -10,7 +10,7 @@
 
 - A table과 B table의 교집합으로 생각하면 된다
 - WHERE절에서 조건을 주어도 되고, ON 으로 조건을 주어도 된다
-- LEFT JOIN, RIGHT JOIN보다 속도가 빠르다
+- LEFT JOIN, RIGHT JOIN보다 **속도가 빠르다**
 
 ```mariadb
 SELECT a.tableA b.tableB 
@@ -25,6 +25,8 @@ FROM tableA AS a JOIN tableB as b ON a._id = b._id;
 - 각 왼쪽 집합의 차집합, 오른쪽 집합의 차집합을 구한다
 - A LEFT JOIN B 와 B RIGHT JOIN A는 같은 식이다
 - OUTER는 생략해도 된다
+- **WHERE절의 {컬럼명} IS NULL 을 꼭 써주어야 한다**!
+- 속도가 INNER JOIN보다 느리다
 
 ``` mariadb
 -- LEFT OUTER JOIN의 예
