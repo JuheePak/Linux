@@ -19,14 +19,15 @@
 
 ##### `mariaDB`
 
-- [01_Connecting to MariaDB]
-- [02_Inserting multiple rows in MySQL]
-- [03_LOAD DATA LOCAL INFILE command in MySQL]
-- [04_Importing CSV file into MariaDB using by HeidiSQL]
-- [05_JOIN query in MySQL]
-- [07_Like operator in MySQL]
-- [08_Exporting tables using HeidiSQL]
-- [09_Exporting_tables_using HeidiSQL (2)]
+- [01_Connecting to MariaDB](https://github.com/JuheePak/linuxStudy/blob/master/MariaDB/01_Connecting%20to%20MariaDB.md)
+- [02_Inserting multiple rows in MySQL](https://github.com/JuheePak/linuxStudy/blob/master/MariaDB/02_Inserting%20multiple%20rows%20in%20MySQL.md)
+- [03_LOAD DATA LOCAL INFILE command in MySQL](https://github.com/JuheePak/linuxStudy/blob/master/MariaDB/03_LOAD%20DATA%20LOCAL%20INFILE%20command%20in%20MySQL.md)
+- [04_Importing CSV file into MariaDB using by HeidiSQL](https://github.com/JuheePak/linuxStudy/blob/master/MariaDB/04_Importing%20CSV%20file%20into%20MariaDB%20using%20by%20HeidiSQL.md)
+- [05_JOIN query in MySQL](https://github.com/JuheePak/linuxStudy/blob/master/MariaDB/05_JOIN%20query%20in%20MySQL.md)
+- [06_JOIN query in MySQL (2)](https://github.com/JuheePak/linuxStudy/blob/master/MariaDB/06_JOIN%20query%20in%20MySQL%20(2).md)
+- [07_Like operator in MySQL](https://github.com/JuheePak/linuxStudy/blob/master/MariaDB/07_Like%20operator%20in%20MySQL.md)
+- [08_Exporting tables using HeidiSQL](https://github.com/JuheePak/linuxStudy/blob/master/MariaDB/08_Exporting%20tables%20using%20HeidiSQL.md)
+- [09_Exporting_tables_using HeidiSQL (2)](https://github.com/JuheePak/linuxStudy/blob/master/MariaDB/09_Exporting%20tables%20using%20HeidiSQL%20(2).md)
 
 
 
