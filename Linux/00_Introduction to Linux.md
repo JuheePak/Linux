@@ -31,3 +31,10 @@
 
 #### `3. 경로`
 
+- `root`: 최상위 디렉토리
+- `directory`: Windows의 폴더와 같은 개념
+- `home directory`: 사용자의 정보를 저장하는 공간
+  - `절대경로(Absolute Path)`: 어디서 수행하든 변함이 없는 경로로, root 경로부터 시작한다
+  - `상대경로(Relative Path)`: 상대적인 경로로 현재 위치를 기준으로 변한다
+    -  `. (Single dot)`: 현재 디렉토리
+    - `.. (double dot)`: 바로 이 전 디렉토리
