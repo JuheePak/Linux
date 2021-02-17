@@ -2,6 +2,8 @@
 
 #### `⚡ WSL를 설치하여 Ubuntu 환경에서 개발하고 있습니다 :) `
 
+
+
 ##### `WSL` 
 
 - [01_Installing Ubuntu on Windows 10](https://github.com/JuheePak/linuxStudy/blob/master/WSL/01_Installing%20Ubuntu%20on%20Windows%2010.md)
@@ -29,14 +31,15 @@
 - [07_Like operator in MySQL](https://github.com/JuheePak/linuxStudy/blob/master/MariaDB/07_Like%20operator%20in%20MySQL.md)
 - [08_Exporting tables using HeidiSQL](https://github.com/JuheePak/linuxStudy/blob/master/MariaDB/08_Exporting%20tables%20using%20HeidiSQL.md)
 - [09_Exporting_tables_using HeidiSQL (2)](https://github.com/JuheePak/linuxStudy/blob/master/MariaDB/09_Exporting%20tables%20using%20HeidiSQL%20(2).md)
-- [10_Merge multiple CVS files into one using cmd]()
+- [10_Merge multiple CVS files into one using cmd](https://github.com/JuheePak/linuxStudy/blob/master/MariaDB/10_Merge%20multiple%20CVS%20files%20into%20one%20using%20cmd.md)
 
 
 
 ##### `Docker`
 
 - [01_Installing Docker on WSL2](https://github.com/JuheePak/linuxStudy/blob/master/Docker/01_Installing%20Docker%20on%20WSL2.md)
-- 
+
+
 
 ##### `Deep Learning`
 
