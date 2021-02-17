@@ -29,6 +29,7 @@
 - [07_Like operator in MySQL](https://github.com/JuheePak/linuxStudy/blob/master/MariaDB/07_Like%20operator%20in%20MySQL.md)
 - [08_Exporting tables using HeidiSQL](https://github.com/JuheePak/linuxStudy/blob/master/MariaDB/08_Exporting%20tables%20using%20HeidiSQL.md)
 - [09_Exporting_tables_using HeidiSQL (2)](https://github.com/JuheePak/linuxStudy/blob/master/MariaDB/09_Exporting%20tables%20using%20HeidiSQL%20(2).md)
+- [10_Merge multiple CVS files into one using cmd]()
 
 
 
