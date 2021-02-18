@@ -91,6 +91,7 @@
 
   ``` python
   from jellyfish import _jellyfish
+  from fuzzywuzzy import fuzz
   
   print(fuzz.WRatio('Joshua', 'josh'))
   # 90
