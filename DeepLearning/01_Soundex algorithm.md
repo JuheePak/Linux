@@ -83,4 +83,29 @@
   ```
 
 - fuzzywuzzy와 jellyfish의 성능을 비교한 도큐먼트가 많으니 상황에 맞는 것을 찾아 쓰면 좋겠다
-- 
+
+  ``` python
+  from jellyfish import _jellyfish
+  
+  print(fuzz.WRatio('Joshua', 'josh'))
+  # 90
+  print(fuzz.partial_ratio('Wanna go home', 'Want to go home'))
+  # 69
+  print(fuzz.ratio('Marry', 'Merry'))
+  # 80
+  print(fuzz.ratio('Merry', 'MerryChristmas'))
+  #53
+  print(fuzz.ratio('merry', 'merry')) # 대소문자구별
+  # 100
+  print(fuzz.WRatio('merry', 'marry'))
+  # 80
+  
+  
+  # jellyfish의 사운덱스는 인풋값의 soundex 코드를 리턴한다.
+  j = _jellyfish.soundex(u'jellyfish')
+  e = _jellyfish.soundex(u'jallyfish')
+  print(j, e) 
+  # J412 J412 코드 출력
+  ```
+
+  
