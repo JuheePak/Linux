@@ -69,3 +69,17 @@
           code = code + ("0" * (4 - len(code))) # 결과 반환 
       return code 
   ```
+
+
+
+- 혹은 기존의 soundex 라이브러리를 설치해서 사용해도 좋다
+
+  ``` bash
+  # jellyfish
+  pip install jellyfish
+  
+  # fuzzywuzzy
+  pip install fuzzywuzzy
+  ```
+
+- 
