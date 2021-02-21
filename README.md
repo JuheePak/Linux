@@ -46,3 +46,8 @@
 - [01_Soundex algorithim](https://github.com/JuheePak/linuxStudy/blob/master/DeepLearning/01_Soundex%20algorithm.md)
 - [02_Levenshtein distance](https://github.com/JuheePak/linuxStudy/blob/master/DeepLearning/02_Levenshtein%20distance.md)
 
+
+
+##### `Etc`
+
+- [01_Changing the JupyterLab interface theme](https://github.com/JuheePak/linuxStudy/blob/master/Etc/01_Changing%20the%20JupyterLab%20interface%20theme.md)
