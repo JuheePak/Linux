@@ -2,7 +2,7 @@
 
 ---
 
-- Pycharm처럼 JupyterLab도 테마를 **진한 색으로** 바꿔보기
+- Pycharm처럼 JupyterLab도 테마를 **진한 색으로** 바꿔보기(~~눈을 보호하자~~ 👀)
 
 - [Anaconda prompt] 에서 아래 명령어 수행
 
