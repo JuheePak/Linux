@@ -20,7 +20,7 @@
 
   ![캡처](https://user-images.githubusercontent.com/69948723/108643176-abe5cc80-74ec-11eb-889a-c967dad81ad6.PNG)
 
-- 각 어떤 테마가 어떤 색인지 [여기](https://m.blog.naver.com/jjys9047/221571637230)사이트를 통해 확인 가능하다
+- 각 테마 별로 어떤 테마인지 [여기](https://m.blog.naver.com/jjys9047/221571637230)사이트를 통해 확인 가능하다(테마마다 코드 및 배경 색이 다름)
 
 - 나는 `chesterish`로 변경하였음
 
@@ -30,4 +30,4 @@
   jt -t {변경 원하는 theme 입력}
   ```
 
-  
+- 눈이 이제 편하다...
