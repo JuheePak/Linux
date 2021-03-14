@@ -52,4 +52,4 @@
 
 - [01_Changing the JupyterLab interface theme](https://github.com/JuheePak/linuxStudy/blob/master/Etc/01_Changing%20the%20JupyterLab%20interface%20theme.md)
 - [02_Using SSH in Windiows cmd](https://github.com/JuheePak/linuxStudy/blob/master/Etc/02_Using_SSH_in_Windows_cmd.md)
-- 
+
