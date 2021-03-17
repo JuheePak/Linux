@@ -17,7 +17,7 @@
 - [00_Introduction to Linux](https://github.com/JuheePak/linuxStudy/blob/master/Linux/00_Introduction%20to%20Linux.md)
 - [01_Basic Linux commands](https://github.com/JuheePak/linuxStudy/blob/master/Linux/01_Basic%20Linux%20commands.md)
 - [02_Linux file Permissions](https://github.com/JuheePak/linuxStudy/blob/master/Linux/02_Linux%20file%20Permissions.md) 
-- [03_Linux commands i nedd to know for work](https://github.com/JuheePak/linuxStudy/blob/master/Linux/03_Linux%20commands%20i%20need%20to%20know%20for%20work.md)
+- [03_Linux commands i need to know for work](https://github.com/JuheePak/linuxStudy/blob/master/Linux/03_Linux%20commands%20i%20need%20to%20know%20for%20work.md)
 
 
 ##### `mariaDB`
