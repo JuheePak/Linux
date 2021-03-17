@@ -4,6 +4,11 @@
 
 - 업무 중에 원격 컴퓨터와 파일을 pull & push 할 경우 자주  사용하는 명령어를 정리하였다 :)
 - 리눅스 정말 하면 할수록 ~~어렵고~~ 신기하고 
+- rsync가 없을 경우 설치
+
+``` bash
+apt-get install rsync
+```
 
 
 
@@ -35,5 +40,17 @@ tar -xzvf [파일 이름.tar] -C [압축 풀 경로]
 
 ``` bash
 du -a /[디렉토리 이름]
+```
+
+
+
+##### `5. tar로 압축하기`
+
+- Tape ARchiverdml의 약자로 파일을 묶거나 푸는데에 사용함
+- 데이터 용량을 줄이기 위해 test.tar.gz 이렇게 사용하기도 함
+
+``` bash
+tar cvf [파일명][묶을 파일/경로]
+rsync -zvh test.tar /home/ububtu/..../test_dir/
 ```
 
