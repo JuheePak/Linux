@@ -35,7 +35,6 @@
 - [08_Exporting tables using HeidiSQL](https://github.com/JuheePak/linuxStudy/blob/master/MariaDB/08_Exporting%20tables%20using%20HeidiSQL.md)
 - [09_Exporting_tables_using HeidiSQL (2)](https://github.com/JuheePak/linuxStudy/blob/master/MariaDB/09_Exporting%20tables%20using%20HeidiSQL%20(2).md)
 - [10_Merge multiple CVS files into one using cmd](https://github.com/JuheePak/linuxStudy/blob/master/MariaDB/10_Merge%20multiple%20CVS%20files%20into%20one%20using%20cmd.md)
-
 - [11_ROLLUP query](https://github.com/JuheePak/linuxStudy/blob/master/MariaDB/11_ROLLUP%20Query.md)
 
   
