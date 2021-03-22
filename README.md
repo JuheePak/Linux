@@ -55,4 +55,4 @@
 
 - [01_Changing the JupyterLab interface theme](https://github.com/JuheePak/linuxStudy/blob/master/Etc/01_Changing%20the%20JupyterLab%20interface%20theme.md)
 - [02_Using SSH in Windiows cmd](https://github.com/JuheePak/linuxStudy/blob/master/Etc/02_Using%20SSH%20in%20Windows%20cmd.md)
-- [03_Merge multiple CVS files into one using cmd](https://github.com/JuheePak/linuxStudy/blob/master/MariaDB/10_Merge%20multiple%20CVS%20files%20into%20one%20using%20cmd.md)
+- [03_Merge multiple CVS files into one using cmd](https://github.com/JuheePak/linuxStudy/blob/master/Etc/03_Merge%20multiple%20CVS%20files%20into%20one%20using%20cmd.md)
