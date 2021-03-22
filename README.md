@@ -34,8 +34,7 @@
 - [07_Like operator in MySQL](https://github.com/JuheePak/linuxStudy/blob/master/MariaDB/07_Like%20operator%20in%20MySQL.md)
 - [08_Exporting tables using HeidiSQL](https://github.com/JuheePak/linuxStudy/blob/master/MariaDB/08_Exporting%20tables%20using%20HeidiSQL.md)
 - [09_Exporting_tables_using HeidiSQL (2)](https://github.com/JuheePak/linuxStudy/blob/master/MariaDB/09_Exporting%20tables%20using%20HeidiSQL%20(2).md)
-- [10_Merge multiple CVS files into one using cmd](https://github.com/JuheePak/linuxStudy/blob/master/MariaDB/10_Merge%20multiple%20CVS%20files%20into%20one%20using%20cmd.md)
-- [11_ROLLUP query](https://github.com/JuheePak/linuxStudy/blob/master/MariaDB/11_ROLLUP%20Query.md)
+- [10_ROLLUP query](https://github.com/JuheePak/linuxStudy/blob/master/MariaDB/11_ROLLUP%20Query.md)
 
   
 
@@ -56,4 +55,4 @@
 
 - [01_Changing the JupyterLab interface theme](https://github.com/JuheePak/linuxStudy/blob/master/Etc/01_Changing%20the%20JupyterLab%20interface%20theme.md)
 - [02_Using SSH in Windiows cmd](https://github.com/JuheePak/linuxStudy/blob/master/Etc/02_Using%20SSH%20in%20Windows%20cmd.md)
-
+- [03_Merge multiple CVS files into one using cmd](https://github.com/JuheePak/linuxStudy/blob/master/MariaDB/10_Merge%20multiple%20CVS%20files%20into%20one%20using%20cmd.md)
