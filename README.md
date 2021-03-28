@@ -41,7 +41,11 @@
 ##### `Docker`
 
 - [01_Installing Docker on WSL2](https://github.com/JuheePak/linuxStudy/blob/master/Docker/01_Installing%20Docker%20on%20WSL2.md)
+<<<<<<< HEAD
 - [02_Buling a website with Node.js and Express](https://github.com/JuheePak/linuxStudy/blob/master/Docker/02_Building%20a%20website%20with%20Node.js%20and%20Express.md)
+=======
+- [02_Building a website with Node.js and Express](https://github.com/JuheePak/linuxStudy/blob/master/Docker/02_Building%20a%20website%20with%20Node.js%20and%20Express.md)
+>>>>>>> a60c33d467f07f1b83f9655e31c8f22cfc0e6579
 
 
 
