@@ -27,7 +27,7 @@ npm install --save ejs
 
 - 아래 내용 붙여넣고, 실행하면 localhost:3000으로 웹페이지가 열린다.
 
-``` bash
+``` javascript
 var express = require('express'); // 설치한 express module을 불러와서 변수에 담기!!
 var app = express(); //express를 실행, app object 초기화!!
 
@@ -41,4 +41,3 @@ app.listen(port, function(){
 });
 
 ```
-
