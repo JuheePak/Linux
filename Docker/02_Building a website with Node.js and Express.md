@@ -55,4 +55,4 @@ npm start
 npm install bootstrap
 ```
 
-- 모든 패키지 설치는 **npm install [패키지명]**으로 해주면 된다 ! 
+- 모든 패키지 설치는 npm install [패키지명]으로 해주면 된다 !
