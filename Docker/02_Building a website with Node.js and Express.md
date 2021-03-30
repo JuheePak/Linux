@@ -39,5 +39,20 @@ var port = 3000; // 포트 번호!!
 app.listen(port, function(){ 
   console.log('주소!!-> http://localhost:'+port); 
 });
-
 ```
+
+``` bash
+npm start
+```
+
+
+
+##### `4. bootstrap`
+
+- bootstrap의 template을 사용하기 위해서 설치해주어야 한다.
+
+```bash
+npm install bootstrap
+```
+
+- 모든 패키지 설치는 npm install [패키지명]으로 해주면 된다 !
